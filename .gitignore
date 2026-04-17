@@ -1,0 +1,13 @@
+# 환경변수 (크레덴셜)
+.env
+
+# Xing API DLL — LS증권 저작물, 재배포 불가
+# (xing_api_files/README.md 안내 참고)
+xing_api_files/*.dll
+xing_api_files/*.ini
+xing_api_files/*.txt
+xing_api_files/res/*.res
+
+# Python
+__pycache__/
+*.pyc
