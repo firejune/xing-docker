@@ -63,7 +63,7 @@ cp .env.example .env
 ```env
 XING_USER_ID=your_id
 XING_USER_PWD='your_password'    # 특수문자 포함 시 싱글쿼트
-XING_CERT_PWD='your_cert_pwd'
+XING_CERT_PWD=                    # 모의투자는 빈 값, 실투자만 필수
 XING_SERVER_TYPE=demo             # demo: 모의투자, real: 실투자
 ```
 
